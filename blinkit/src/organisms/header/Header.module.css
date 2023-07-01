@@ -1,0 +1,32 @@
+.navBar {
+	justify-content: space-between;
+	align-items: stretch;
+	border-bottom: 0.5px solid grey;
+}
+
+.navBar__left {
+	gap: 2em;
+}
+
+.navBar__left__icon {
+	padding: 0px 20px 0px 20px;
+	border-right: 0.5px solid lightgrey;
+	width: 8rem;
+}
+
+.navBar__left__content>p {
+	margin: 0;
+	margin-top: 0.5rem;
+	font-size: small;
+}
+
+.navBar__left__content:first-child {
+	margin-top: 0;
+}
+
+.navBar__right {
+	size: 2cm;
+	gap: 2rem;
+	justify-content: space-between;
+	padding-right: 10px;
+}
